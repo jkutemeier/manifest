@@ -32,8 +32,10 @@ Your sources have been sync'd successfully.
            groups="minilayout" />
 
   <project path="src/third_party/portage-stable"
-           name="coreos/portage-stable"
+           name="jessfraz/portage-stable"
+           revision="desktop"
            groups="minilayout" />
+
   <project path="src/third_party/coreos-overlay"
            name="jessfraz/coreos-overlay"
            revision="desktop"
