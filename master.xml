@@ -26,14 +26,17 @@ Your sources have been sync'd successfully.
            name="chromiumos/platform/factory-utils"
            groups="minilayout" remote="cros" />
 
-  <project path="src/scripts" name="coreos/scripts"
+       <project path="src/scripts"
+           name="jessfraz/scripts"
+           revision="desktop"
            groups="minilayout" />
 
   <project path="src/third_party/portage-stable"
            name="coreos/portage-stable"
            groups="minilayout" />
   <project path="src/third_party/coreos-overlay"
-           name="coreos/coreos-overlay"
+           name="jessfraz/coreos-overlay"
+           revision="desktop"
            groups="minilayout" />
 
   <project path="src/third_party/efunctions"
@@ -49,7 +52,7 @@ Your sources have been sync'd successfully.
            groups="minilayout" />
 
   <project path="src/third_party/init"
-           name="coreos/init"
+           name="jessfraz/init"
            groups="minilayout" />
 
   <project path="src/third_party/bootengine"
@@ -93,7 +96,7 @@ Your sources have been sync'd successfully.
            groups="minilayout" />
 
   <project path="src/third_party/baselayout"
-           name="coreos/baselayout"
+           name="jessfraz/baselayout"
            groups="minilayout" />
 
   <project path="src/third_party/coreos-cloudinit"
